@@ -1,0 +1,5 @@
+'''text
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.exe
