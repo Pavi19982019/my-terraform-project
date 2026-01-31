@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" {
-  bucket = "my-unique-test-bucket-123456"
+  bucket = "my-unique-test-bucket-12345"
 }
