@@ -4,5 +4,4 @@ provider "aws" {
 
 resource "aws_s3_bucket" "example" {
   bucket = "my-unique-test-bucket-123456-by-pavithra"
-  force_destroy =true
 }
