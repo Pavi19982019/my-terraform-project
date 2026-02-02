@@ -1,11 +1,5 @@
 pipeline {
     agent any
-
-    // Ensure Terraform is in your Global Tool Configuration with the name 'terraform'
-    tools {
-        terraform 'terraform' 
-    }
-
     environment {
         // It's safer to store these in Jenkins Credentials
          AWS_ACCESS_KEY_ID = credentials('aws-access-key-id')
